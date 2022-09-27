@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #442fbe;
+}
+h1 {
+  margin-top: 5rem;
+  color: white;
+}
+
+img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+}
+.App {
+  display: flex;
+}
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 770px;
+  height: 80vh;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+}
+.flexbox .board {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100vw;
+  height: 20vh;
+  max-width: 600px;
+  background-color: #313131;
+  padding: 15px;
+  margin: 1rem;
+  overflow: hidden;
+}
+
+.flexbox .board .card {
+  padding: 15px 25px;
+  cursor: pointer;
+  background-color: white;
+  font-size: x-small;
+}
+.card {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border: 0;
+  margin: 5px;
+  /* image-rendering: auto; */
+  image-rendering: crisp-edges;
+  filter: saturate(1.8);
+
+  /* image-rendering: pixelated; */
+}
+
+.board {
+  display: flex;
+  flex-direction: row;
+}
+
+.category {
+  background-color: rgb(15, 255, 27);
+  width: 200px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+input {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100px;
+  text-align: center;
+  color: white;
+  border: 0;
+  background: transparent;
+  outline: none;
+}
+
+input {
+  background-color: #313131;
+  height: 20vh;
+}
+
+#credits {
+  color: white;
+  margin-top: 50px;
+  padding: 10px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#credits > a {
+  color: rgb(106, 251, 220);
+}
+
+@media only screen and (max-width: 862px) {
+  .card {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+  }
+}
