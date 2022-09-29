@@ -11,7 +11,7 @@ function Naruto() {
         <div>
              <div className="section" /* draggable="true" */>
     <Category categoryName="Plus Ultra" className="category"/>
-     <CategoryInput storageName={"seventh"}  initialValue={"Academy"} /> 
+     <CategoryInput storageName={"seventh"}  initialValue={"Hokage"} /> 
       <Board
        id="board-1"
        className="board"
@@ -27,7 +27,7 @@ function Naruto() {
           <div className="section">
     <Category categoryName="Villain" className="category"/>
     
-    <CategoryInput storageName={"eighth"}  initialValue={"Hokage"} /> 
+    <CategoryInput storageName={"eighth"}  initialValue={"Jonin"} /> 
       <Board
        id="board-3"
        className="board"
@@ -44,7 +44,7 @@ function Naruto() {
 
           <div className="section">
     <Category categoryName="Your characters" className="category"/>
-    <CategoryInput storageName={"ninth"}  initialValue={"Default"} /> 
+    <CategoryInput storageName={"ninth"}  initialValue={"Chunin"} /> 
       <Board
        id="board-4"
        className="board"

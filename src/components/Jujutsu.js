@@ -11,7 +11,7 @@ function Jujutsu() {
         <div>
              <div className="section" /* draggable="true" */>
     <Category categoryName="Gojo level" className="category"/>
-     <CategoryInput storageName={"fourth"}  initialValue={"Gojo Level"} /> 
+     <CategoryInput storageName={"fourth"}  initialValue={"S Tier"} /> 
       <Board
        id="board-4"
        className="board"
@@ -27,7 +27,7 @@ function Jujutsu() {
           <div className="section">
     <Category categoryName="Sukuna Fingers" className="category"/>
     
-    <CategoryInput storageName={"fifth"}  initialValue={"Sukuna Fingers"} /> 
+    <CategoryInput storageName={"fifth"}  initialValue={"A Tier"} /> 
       <Board
        id="board-5"
        className="board"
@@ -44,7 +44,7 @@ function Jujutsu() {
 
           <div className="section">
     <Category categoryName="Your characters" className="category"/>
-    <CategoryInput storageName={"sixth"}  initialValue={"Sorcerers"} /> 
+    <CategoryInput storageName={"sixth"}  initialValue={"B Tier"} /> 
       <Board
        id="board-6"
        className="board"
